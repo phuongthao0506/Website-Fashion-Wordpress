@@ -8,7 +8,6 @@
 				<title>aaaaa &#8211; Fashion</title>
 <meta name="robots" content="noindex, nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="dns-prefetch" href="//product-gallery.cloudinary.com">
 <link rel="dns-prefetch" href="//s.w.org">
 <link rel="alternate" type="application/rss+xml" title="Dòng thông tin Fashion &raquo;" href="https://phuongthao0506.github.io/wordpress/feed/">
 <link rel="alternate" type="application/rss+xml" title="Dòng phản hồi Fashion &raquo;" href="https://phuongthao0506.github.io/wordpress/comments/feed/">
@@ -418,7 +417,30 @@ img.emoji {
 
 		<div class="woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-4 images" data-columns="4" style="opacity: 0; transition: opacity .25s ease-in-out;">
 	<figure class="woocommerce-product-gallery__wrapper">
-			</figure>
+		<div data-thumb="https://images.unsplash.com/photo-1582667711151-69298e5f8f34?crop=entropy&#038;cs=tinysrgb&#038;fit=max&#038;fm=jpg&#038;ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjI0NjkxNjAy&#038;ixlib=rb-1.2.1&#038;q=80&#038;w=1080&#038;utm_source=unsplash_source&#038;utm_medium=referral&#038;utm_campaign=api-credit" data-thumb-alt="" class="woocommerce-product-gallery__image"><a href="https://images.unsplash.com/photo-1582667711151-69298e5f8f34?crop=entropy&#038;cs=tinysrgb&#038;fit=max&#038;fm=jpg&#038;ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjI0NjkxNjAy&#038;ixlib=rb-1.2.1&#038;q=80&#038;w=1080&#038;utm_source=unsplash_source&#038;utm_medium=referral&#038;utm_campaign=api-credit"><img fifu-featured="1" width="600" height="365" src="https://images.unsplash.com/photo-1582667711151-69298e5f8f34?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjI0NjkxNjAy&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1080&amp;utm_source=unsplash_source&amp;utm_medium=referral&amp;utm_campaign=api-credit" class="wp-post-image" alt="aaaaa" loading="lazy" title="" data-caption="" data-src="https://images.unsplash.com/photo-1582667711151-69298e5f8f34?crop=entropy&#038;cs=tinysrgb&#038;fit=max&#038;fm=jpg&#038;ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjI0NjkxNjAy&#038;ixlib=rb-1.2.1&#038;q=80&#038;w=1080&#038;utm_source=unsplash_source&#038;utm_medium=referral&#038;utm_campaign=api-credit" data-large_image="https://images.unsplash.com/photo-1582667711151-69298e5f8f34?crop=entropy&#038;cs=tinysrgb&#038;fit=max&#038;fm=jpg&#038;ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjI0NjkxNjAy&#038;ixlib=rb-1.2.1&#038;q=80&#038;w=1080&#038;utm_source=unsplash_source&#038;utm_medium=referral&#038;utm_campaign=api-credit" data-large_image_width="1080" data-large_image_height="657" onload="
+    function fix_images_without_dimensions() {
+        jQuery(&#039;img[data-large_image_height=0]&#039;).each(function () {
+            if (jQuery(this)[0].naturalWidth &lt;= 2)
+                return;
+
+            jQuery(this)
+                .attr(&#039;data-large_image_width&#039;, jQuery(this)[0].naturalWidth)
+                .attr(&#039;data-large_image_height&#039;, jQuery(this)[0].naturalHeight);
+        });
+    }
+    fix_images_without_dimensions();"></a></div>
+<div data-thumb="https://res.cloudinary.com/wordpressphuongthao/images/w_100,h_100,c_fill,g_auto/v1624756378/q2/q2-100x100.gif" data-thumb-alt="" class="woocommerce-product-gallery__image"><a href="https://res.cloudinary.com/wordpressphuongthao/images/v1624756378/q2/q2.gif"><img width="600" height="890" src="https://res.cloudinary.com/wordpressphuongthao/images/w_600,h_890,c_scale/v1624756378/q2/q2-600x890.gif" class="" alt="" loading="lazy" title="q2" data-caption="" data-src="https://res.cloudinary.com/wordpressphuongthao/images/v1624756378/q2/q2.gif" data-large_image="https://res.cloudinary.com/wordpressphuongthao/images/v1624756378/q2/q2.gif" data-large_image_width="840" data-large_image_height="1246" onload="
+    function fix_images_without_dimensions() {
+        jQuery(&#039;img[data-large_image_height=0]&#039;).each(function () {
+            if (jQuery(this)[0].naturalWidth &lt;= 2)
+                return;
+
+            jQuery(this)
+                .attr(&#039;data-large_image_width&#039;, jQuery(this)[0].naturalWidth)
+                .attr(&#039;data-large_image_height&#039;, jQuery(this)[0].naturalHeight);
+        });
+    }
+    fix_images_without_dimensions();"></a></div>	</figure>
 </div>
 
 		<div class="summary entry-summary">
@@ -855,15 +877,9 @@ var oceanwpLocalize = {"isRTL":"","menuSearchStyle":"drop_down","sidrSource":nul
 </script>
 <script type="text/javascript" src="https://phuongthao0506.github.io/wordpress/wp-content/themes/oceanwp/assets/js/main.min.js?ver=2.1.1" id="oceanwp-main-js"></script>
 <script type="text/javascript" src="https://phuongthao0506.github.io/wordpress/wp-content/plugins/ocean-extra/includes/widgets/js/mailchimp.min.js?ver=5.7.2" id="oe-mailchimp-script-js"></script>
-<script type="text/javascript" src="https://product-gallery.cloudinary.com/all.js?ver=2.7.4" id="cld-gallery-js"></script>
-<script type="text/javascript" id="cld-gallery-js-after">
-var CLD_GALLERY_CONFIG = {"aspectRatio":"3:4","navigation":"always","zoom":true,"carouselLocation":"bottom","carouselOffset":5,"carouselStyle":"thumbnails","container":".woocommerce-product-gallery","transition":"fade","displayProps":{"mode":"classic"},"indicatorProps":{"shape":"round"},"themeProps":{"primary":"#cf2e2e","onPrimary":"#000000","active":"#777777"},"zoomProps":{"type":"inline","viewerPosition":"left","trigger":"hover"},"thumbnailProps":{"width":64,"height":64,"navigationShape":"radius","selectedStyle":"gradient","selectedBorderPosition":"all","selectedBorderWidth":4,"mediaSymbolShape":"round"},"transformation":{"crop":"pad","background":"rgb:FFFFFF"},"cloudName":"wordpressphuongthao"};
-CLD_GALLERY_CONFIG.mediaAssets = [{"attachmentId":463,"publicId":"photo-1582667711151-69298e5f8f34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjI0NjkxNjAy&ixlib=rb-1.2"},{"attachmentId":327,"publicId":"q2","transformation":{"transformation":[{"fetch_format":"auto","quality":"auto"}]}}];
-</script>
-<script type="text/javascript" src="https://phuongthao0506.github.io/wordpress/wp-content/plugins/cloudinary-image-management-and-manipulation-in-the-cloud-cdn/js/gallery-init.js?ver=2.7.4" id="cloudinary-gallery-init-js"></script>
 <script type="text/javascript" id="woo-variation-swatches-js-extra">
 /* <![CDATA[ */
-var woo_variation_swatches_options = {"is_product_page":"1","show_variation_label":"1","variation_label_separator":":","wvs_nonce":"b44c29e9e5"};
+var woo_variation_swatches_options = {"is_product_page":"1","show_variation_label":"1","variation_label_separator":":","wvs_nonce":"c33e1ca86a"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://phuongthao0506.github.io/wordpress/wp-content/plugins/woo-variation-swatches/assets/js/frontend.min.js?ver=1.1.17" id="woo-variation-swatches-js"></script>
@@ -874,7 +890,7 @@ var woo_variation_swatches_options = {"is_product_page":"1","show_variation_labe
 <script type="text/javascript" src="https://phuongthao0506.github.io/wordpress/wp-includes/js/wp-embed.min.js?ver=5.7.2" id="wp-embed-js"></script>
 <script type="text/javascript" id="fifu-image-js-js-extra">
 /* <![CDATA[ */
-var fifuImageVars = {"fifu_lazy":"","fifu_woo_lbox_enabled":"1","fifu_woo_zoom":"inline","fifu_is_product":"1","fifu_is_flatsome_active":"","fifu_rest_url":"https:\/\/phuongthao0506.github.io\/wordpress\/wp-json\/","fifu_nonce":"72dde37c5d"};
+var fifuImageVars = {"fifu_lazy":"","fifu_woo_lbox_enabled":"1","fifu_woo_zoom":"inline","fifu_is_product":"1","fifu_is_flatsome_active":"","fifu_rest_url":"https:\/\/phuongthao0506.github.io\/wordpress\/wp-json\/","fifu_nonce":"4448e5b3fb"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://phuongthao0506.github.io/wordpress/wp-content/plugins/featured-image-from-url/includes/html/js/image.js?ver=3.6.3" id="fifu-image-js-js"></script>
