@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Phụ Kiện Thời Trang &#8211; Fashion</title>
+	<atom:link href="https://phuongthao0506.github.io/wordpress/danh-muc-san-pham/phu-kien-thoi-trang/feed/" rel="self" type="application/rss+xml" />
+	<link>https://phuongthao0506.github.io/wordpress</link>
+	<description></description>
+	<lastBuildDate>Sat, 26 Jun 2021 09:03:50 +0000</lastBuildDate>
+	<language>vi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>aaaaa</title>
+		<link>https://phuongthao0506.github.io/wordpress/wordpress/aaaaa/</link>
+					<comments>https://phuongthao0506.github.io/wordpress/wordpress/aaaaa/#respond</comments>
+		
+		<dc:creator><![CDATA[phuongthao]]></dc:creator>
+		<pubDate>Sat, 26 Jun 2021 09:03:15 +0000</pubDate>
+				<guid isPermaLink="false">https://phuongthao0506.github.io/wordpress/?post_type=product&#038;p=461</guid>
+
+					<description><![CDATA[]]></description>
+		
+					<wfw:commentRss>https://phuongthao0506.github.io/wordpress/wordpress/aaaaa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
