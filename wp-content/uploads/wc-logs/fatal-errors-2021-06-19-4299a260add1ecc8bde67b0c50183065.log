@@ -1,0 +1,34 @@
+2021-06-19T06:32:44+00:00 CRITICAL Uncaught WooCommerce\PayPalCommerce\ApiClient\Exception\PayPalApiException: [INVALID_REQUEST] Request is not well-formed, syntactically incorrect, or violates schema. in /Applications/XAMPP/xamppfiles/htdocs/myproject/wordpress/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-api-client/src/Endpoint/class-partnerreferrals.php:112
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/myproject/wordpress/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-onboarding/src/Render/class-onboardingrenderer.php(66): WooCommerce\PayPalCommerce\ApiClient\Endpoint\PartnerReferrals->signup_link()
+#1 /Applications/XAMPP/xamppfiles/htdocs/myproject/wordpress/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-onboarding/src/class-onboarding-rest-controller.php(311): WooCommerce\PayPalCommerce\Onboarding\Render\OnboardingRenderer->get_signup_link(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/myproject/wordpress/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-onboarding/src/class-onboarding-rest-controller.php(124): WooCommerce\PayPalCommerce\Onboarding\Onboarding_REST_Controller->generate_signup_link('production', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/myproject/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1139): WooCommerce\PayPalCommerce\Onboarding\Onboarding_REST_Controller->get_params(Object(WP_REST_Request))
+#4 /Applications/XAMPP/xamppfiles/htdocs/myproject/wordpress/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc-paypal/v1/o...', Array, NULL)
+#5 /Applications/XAMPP/xamppfiles/htdocs/myproject/wordpress/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 /Applications/XAMPP/xamppfiles/htdocs/myproject/wordpress/wp-includes/rest-api.php(354): WP_REST_Server->serve_request('/wc-paypal/v1/o...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/myproject/wordpress/wp-includes/class-wp-hook.php(292): rest_api_loaded(Object(WP))
+#8 /Applications/XAMPP/xamppfiles/htdocs/myproject/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/myproject/wordpress/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/myproject/wordpress/wp-includes/class-wp.php(388): do_action_ref_array('parse_request', Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/myproject/wordpress/wp-includes/class-wp.php(750): WP->parse_request('')
+#12 /Applications/XAMPP/xamppfiles/htdocs/myproject/wordpress/wp-includes/functions.php(1291): WP->main('')
+#13 /Applications/XAMPP/xamppfiles/htdocs/myproject/wordpress/wp-blog-header.php(16): wp()
+#14 /Applications/XAMPP/xamppfiles/htdocs/myproject/wordpress/index.php(17): require('/Applications/X...')
+#15 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/myproject/wordpress/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-api-client/src/Endpoint/class-partnerreferrals.php on line 112
+
+2021-06-19T13:08:00+00:00 CRITICAL syntax error, unexpected token "if", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/myproject/wordpress/wp-content/themes/oceanwp/functions.php on line 48
+
+2021-06-19T13:08:09+00:00 CRITICAL syntax error, unexpected token "if", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/myproject/wordpress/wp-content/themes/oceanwp/functions.php on line 48
+
+2021-06-19T15:54:44+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in /Applications/XAMPP/xamppfiles/htdocs/myproject/wordpress/wp-content/plugins/blog-designer/admin/class-blog-designer-lite-settings.php:375
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/myproject/wordpress/wp-content/plugins/blog-designer/admin/class-blog-designer-lite-settings.php(375): in_array(16, '')
+#1 /Applications/XAMPP/xamppfiles/htdocs/myproject/wordpress/wp-includes/class-wp-hook.php(292): Blog_Designer_Lite_Settings::bd_main_menu_function('')
+#2 /Applications/XAMPP/xamppfiles/htdocs/myproject/wordpress/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/myproject/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/myproject/wordpress/wp-admin/admin.php(259): do_action('toplevel_page_d...')
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/myproject/wordpress/wp-content/plugins/blog-designer/admin/class-blog-designer-lite-settings.php on line 375
+
